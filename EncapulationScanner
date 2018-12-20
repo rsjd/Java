@@ -1,0 +1,92 @@
+public class EncapulationMain {
+
+	private String name;
+	private String age;
+	private String designation;
+	private String course;
+	private String Company;
+
+	public void setName(String name) {
+		this.name = name;
+
+	}
+
+	public void setAge(String age) {
+		this.age = age;
+	}
+
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+
+	public void setCourse(String course) {
+		this.course = course;
+	}
+
+	public void setCompany(String Company) {
+		this.Company = Company;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getAge() {
+		return age;
+	}
+
+	public String getDesignation() {
+		return designation;
+	}
+
+	public String getCourse() {
+		return course;
+	}
+
+	public String Company() {
+		return Company;
+	}
+
+}
+
+
+
+
+
+import java.util.*;
+
+public class EncapulationChild {
+
+	public static void main(String args[]) {
+
+		EncapulationMain Encap = new EncapulationMain();
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("Please Enter Your Details ");
+		System.out.println("Name:");
+		System.out.println("Age:");
+		System.out.println("Designation:");
+		System.out.println("Course:");
+		System.out.println("Company:");
+		System.out.println("");
+
+		Encap.setName(input.nextLine());
+
+		Encap.setAge(input.nextLine());
+
+		Encap.setDesignation(input.nextLine());
+
+		Encap.setCourse(input.nextLine());
+
+		Encap.setCompany(input.nextLine());
+
+		System.out.println("\nName: " + Encap.getName());
+		System.out.println("\nAge: " + Encap.getAge());
+		System.out.println("\nDesignation: " + Encap.getDesignation());
+		System.out.println("\nCourse: " + Encap.getCourse());
+		System.out.println("\nCompany: " + Encap.Company());
+		System.out.println("\n                       Information Updated");
+
+	}
+
+}
