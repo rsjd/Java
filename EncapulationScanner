@@ -1,0 +1,50 @@
+public class EncapulationMain {
+
+	private String name;
+	private String age;
+	private String designation;
+	private String course;
+	private String Company;
+
+	public void setName(String name) {
+		this.name = name;
+
+	}
+
+	public void setAge(String age) {
+		this.age = age;
+	}
+
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+
+	public void setCourse(String course) {
+		this.course = course;
+	}
+
+	public void setCompany(String Company) {
+		this.Company = Company;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getAge() {
+		return age;
+	}
+
+	public String getDesignation() {
+		return designation;
+	}
+
+	public String getCourse() {
+		return course;
+	}
+
+	public String Company() {
+		return Company;
+	}
+
+}
