@@ -60,8 +60,10 @@ public class EncapulationChild {
 	public static void main(String args[]) {
 
 		EncapulationMain Encap = new EncapulationMain();
-		Scanner input = new Scanner(System.in);
-
+		
+		
+// Template
+		
 		System.out.println("Please Enter Your Details ");
 		System.out.println("Name:");
 		System.out.println("Age:");
@@ -69,7 +71,9 @@ public class EncapulationChild {
 		System.out.println("Course:");
 		System.out.println("Company:");
 		System.out.println("");
-
+		
+// Template
+		Scanner input = new Scanner(System.in);
 		Encap.setName(input.nextLine());
 
 		Encap.setAge(input.nextLine());
